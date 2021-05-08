@@ -1,0 +1,66 @@
+
+
+npm init
+
+// https://webpack.js.org/guides/getting-started/
+npm install webpack webpack-cli --save-dev
+
+// запуск
+npm run start
+
+// запустить собранный файл webpack
+node dist/bundle.js
+
+// сборка проекта для продакшена
+npm run build
+
+
+
+// плагины webpack
+// https://webpack.js.org/plugins/
+
+//HtmlWebpackPlugin
+npm install --save-dev html-webpack-plugin
+
+//CopyWebpackPlugin
+npm install copy-webpack-plugin --save-dev
+
+// MiniCssExtractPlugin
+npm install --save-dev mini-css-extract-plugin
+
+// clean-webpack-plugin
+// https://github.com/johnagan/clean-webpack-plugin
+npm install --save-dev clean-webpack-plugin
+
+
+// Loaders
+// https://webpack.js.org/loaders/
+
+// style-loader
+npm install --save-dev style-loader
+
+// sass-loader
+npm install sass-loader sass webpack --save-dev
+
+// css-loader
+npm install --save-dev css-loader
+
+// babel-loader
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+
+
+// Добавление режимов сборки
+npm i -D cross-env
+
+// DevServer
+npm install webpack-dev-server --save-dev
+
+// @babel/polyfill
+npm install --save @babel/polyfill
+
+
+// eslint-loader
+npm install eslint eslint-loader babel-eslint --save-dev
+
+// eslint-config-google
+npm install --save-dev eslint eslint-config-google

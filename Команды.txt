@@ -64,3 +64,6 @@ npm install eslint eslint-loader babel-eslint --save-dev
 
 // eslint-config-google
 npm install --save-dev eslint eslint-config-google
+
+// normalize.css
+npm i normalize.css

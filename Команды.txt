@@ -58,6 +58,9 @@ npm install webpack-dev-server --save-dev
 // @babel/polyfill
 npm install --save @babel/polyfill
 
+// @babel/plugin-proposal-class-properties
+npm install --save-dev @babel/plugin-proposal-class-properties
+
 
 // eslint-loader
 npm install eslint eslint-loader babel-eslint --save-dev
